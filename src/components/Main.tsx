@@ -22,7 +22,7 @@ class Main extends React.Component {
   render() {
     return (
       <div className="page-container">
-        <div className="centered-flex wrapped-flex">
+        <div className="centered-flex wrapped-flex text-white">
           <div className="title centered-flex">
             <h1>How drunk are you?</h1>
           </div>
