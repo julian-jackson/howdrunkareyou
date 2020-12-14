@@ -28,7 +28,7 @@ class Main extends React.Component {
             <label>Gender</label>
             <input
               type="text"
-              className="w-full p-3 border border-gray-50 rounded-md box-border mt-1 mb-4 resize-y"
+              className="w-full text-black p-3 border border-gray-50 rounded-md box-border mt-1 mb-4 resize-y"
               name="gender"
               onChange={this.handleChange}
             />
@@ -36,7 +36,7 @@ class Main extends React.Component {
             <label>Weight (kg)</label>
             <input
               type="text"
-              className="w-full p-3 border border-gray-50 rounded-md box-border mt-1 mb-4 resize-y"
+              className="w-full text-black p-3 border border-gray-50 rounded-md box-border mt-1 mb-4 resize-y"
               name="weight"
               onChange={this.handleChange}
             />
@@ -44,7 +44,7 @@ class Main extends React.Component {
             <label>How many standard drinks?</label>
             <input
               type="text"
-              className="w-full p-3 border border-gray-50 rounded-md box-border mt-1 mb-4 resize-y"
+              className="w-full text-black p-3 border border-gray-50 rounded-md box-border mt-1 mb-4 resize-y"
               name="standardDrinksCount"
               onChange={this.handleChange}
             />
@@ -52,7 +52,7 @@ class Main extends React.Component {
             <label>How long ago did you start drinking?</label>
             <input
               type="text"
-              className="w-full p-3 border border-gray-50 rounded-md box-border mt-1 mb-4 resize-y"
+              className="w-full text-black p-3 border border-gray-50 rounded-md box-border mt-1 mb-4 resize-y"
               name="timeStartedDrinking"
               onChange={this.handleChange}
             />
